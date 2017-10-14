@@ -1,0 +1,99 @@
+.trails_container {
+padding-top: 10rem;
+}
+
+.trails_text_box {
+  margin-left: 16rem;
+}
+
+#trails_image {
+  width: 100%;
+}
+
+#tText {
+  font-size: 3rem;
+  color: #008dd3;
+  font-family: GothamLight;
+}
+
+#tTextp {
+  width: 80%;
+  font-family: GothamBook;
+  font-size: 18px;
+}
+
+.trails_text_box {
+	padding-top: 7%;
+}
+
+@media screen and (max-width: 1500px) { 
+	.trails_text_box {
+		padding-top: 0;
+	}
+	#tTextp {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+
+		#tTextp {
+		font-size: 14px;
+	}
+} 
+
+@media screen and (min-width:992px) and (max-width:1160px) {
+    #tText { 
+    	font-size: 2rem; 
+    }
+    #cfheading {
+    	font-size: 2rem ;
+    }
+    .trails_text_box {
+    margin-left: 8rem;
+	}
+}
+
+@media screen and (min-width:769px) and (max-width:991px) {
+	.col-sm-push-6 {
+    	left: 0;
+	}
+	.col-sm-pull-6 {
+    	right: 0;
+	}
+	.trails_text_box {
+    	margin-left: 0;
+	}
+}
+
+/*@media (max-width: 1168px), (min-width: 991px) {
+#tText {
+    font-size: 2rem;
+	}
+	.trails_text_box {
+    margin-left: 8rem;
+}
+}*/
+
+@media screen and (max-width: 1024px) {
+	#tText {
+		font-size: 26px;
+	}
+			#tTextp {
+		font-size: 14px;
+		line-height: 1.5em;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	.trails_text_box {
+		margin-left:0;
+	}
+	.col-sm-pull-6 {
+    	right: 0;
+	}
+		.col-sm-push-6 {
+    	left: 0;
+	}
+}

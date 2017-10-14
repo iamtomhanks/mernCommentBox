@@ -1,0 +1,44 @@
+.side_box {
+  position: absolute;
+  width: 15%;
+  background-color: #008dd3;
+  margin-top: -20rem;
+  margin-left: -2rem;
+  height: 26rem;
+  box-shadow: 3px 3px 3px 3px #C0C0C0;
+}
+
+.side_menu {
+  padding-left: 2rem;
+  max-width: 100%;
+}
+
+.side_menu a {
+  display: block;
+  padding: .3rem;
+  padding-left: 3.6rem;
+  color: #FFFFFF;
+  margin-top: 1rem;
+  font-family: GothamBook;
+}
+
+.signup_btn_container {
+  width: 70%;
+  background-color: #ffffff;
+  margin-left: 3rem;
+  padding-left: 1rem;
+  border-radius: 6%;
+}
+
+ #blue {
+  color: #008dd3;
+  font-family: GothamBold; 
+  position: relative;
+  right: 2rem;
+}
+
+@media(max-width:991px) {
+  .side_box {
+    visibility: hidden;
+  }
+}

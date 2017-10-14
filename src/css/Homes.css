@@ -1,0 +1,267 @@
+.homesDesigns_Heading {
+
+	width: 100%;
+}
+
+.homesDesigns_container {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.row.parallelogram_container {
+    margin-bottom: 8rem;
+}
+
+.parallelogram {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 155%;
+  height: 6rem;
+	margin-left: -24rem;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #f9b813;
+  -webkit-transform:    skewX(-20deg);
+  transform:    skewX(-20deg);
+	opacity: 0.7;
+}
+
+h1#townsheading {
+  text-align: center;
+	padding-top: 1rem;
+	font-family: GothamMedium;
+}
+
+p#townstext {
+    margin-top: 3rem;
+		font-family: GothamBook;
+}
+
+.homeItemContainer {
+	cursor: pointer;
+}
+
+
+
+#features1 {
+  font-size: 36pt;
+  color: #008dd3;
+  font-family: GothamLight;
+}
+
+
+
+#homesText {
+  padding-top: 2rem;
+  font-family: GothamBook;
+  font-size: 18px;
+  width: 100%;
+}
+
+.thumbnail
+{
+    margin-bottom: 20px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    border: none !important;
+}
+
+.item.list-group-item
+{
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
+{
+    background: #428bca;
+}
+
+.item.list-group-item .list-group-image
+{
+    margin-right: 10px;
+}
+.item.list-group-item .thumbnail
+{
+    margin-bottom: 0px;
+}
+.item.list-group-item .caption
+{
+    padding: 9px 9px 0px 9px;
+}
+.item.list-group-item:nth-of-type(odd)
+{
+    background: #eeeeee;
+}
+
+.item.list-group-item:before, .item.list-group-item:after
+{
+    display: table;
+    content: " ";
+}
+
+.item.list-group-item img
+{
+    float: left;
+}
+.item.list-group-item:after
+{
+    clear: both;
+}
+.list-group-item-text
+{
+    margin: 0 0 11px;
+}
+.productTitle {
+	font-family: Gotham-Book;
+	color: #168dcd;
+	font-size: 1.7vw;
+}
+
+.productSubTitle {
+	color: #168dcd;
+	font-size: 1vw;
+}
+.productSubPrice {
+	font-size: 1.2vw;
+	color: #168dcd;
+
+}
+.productTitlePrice {
+	text-align: right;
+	font-family: Gotham-Book;
+}
+.productTitleFeet {
+	font-family: Gotham-Book;
+
+}
+
+.img-responsive.bedIcon {
+    display: inline-block !important;
+    width: 35% !important;
+}
+
+.img-responsive.bathIcon {
+    display: inline-block !important;
+    width: 35% !important;
+}
+
+.productTitlePrice {
+	padding:0;
+}
+
+.bedIcon {
+    margin: auto;
+    height: auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: top;
+        margin-left:10px;
+
+}
+.bathIcon {
+	margin: auto;
+    height: auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: top;
+    margin-left:10px;
+    width: 40%;
+}
+
+.col-xs-4.col-md-4.homesVM {
+    width: 100%;
+}
+
+.homesViewMorebtn:hover {
+color: #08c;
+background: #e7e7e7;
+text-shadow: 0 1px 0px rgba(255, 255, 255, .25);
+border: 1px solid #08c;
+-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+text-decoration:none;
+}
+.homesViewMorebtn {
+display: inline-block;
+padding: 4px 14px;
+margin-bottom: 0;
+font-size: 18px;
+font-family: GothamBold;
+line-height: 20px;
+color: #f1f1f1;
+text-align: center;
+text-shadow: 0 1px 0px rgba(255, 255, 255, .125);
+vertical-align: middle;
+cursor: pointer;
+background-color: #08c;
+border: 1px solid #e7e7e7;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+width: 27% !important;
+
+}
+
+.row .parallelogram2_container {
+    margin-top: 6rem;
+}
+
+.parallelogramtwo {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 155%;
+  height: 6rem;
+	margin-left: -24rem;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #a39a85;
+  -webkit-transform:    skewX(-20deg);
+  transform:    skewX(-20deg);
+	opacity: 0.7;
+}
+
+h1#semisheading {
+  text-align: center;
+	padding-top: 1rem;
+	font-family: GothamMedium;
+}
+
+p#semistext {
+    margin-top: 3rem;
+		font-family: GothamBook;
+}
+
+.row.list-group.semis {
+    margin-top: 8rem;
+}
+
+
+/*
+@media only screen and (max-width: 991px) and (min-width: 768px)  {
+	.bedIcon, .bathIcon {
+		width: 50%;
+	}
+}
+*/
+/*@media only screen and (max-width: 1576px) and (min-width: 1200px)  {
+	.col-lg-4 {
+    width: 32.333333% !important;
+}*/

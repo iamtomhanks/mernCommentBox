@@ -1,0 +1,16 @@
+[
+  {
+    "ID": 1,
+    "homeID": 1,
+    "Elevation": "A",
+    "Category": "Town",
+    "Image": "elevationImageExample"
+  },
+  {
+    "ID": 1,
+    "homeID": 1,
+    "Elevation": "B",
+    "Category": "Town",
+    "Image": "elevationImageExample"
+  }
+]

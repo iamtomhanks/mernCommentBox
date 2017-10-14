@@ -1,0 +1,225 @@
+.question_box {
+  position: relative;
+  left: 11rem;
+  bottom: .5rem;
+}
+
+.question_box h3 {
+  font-size: 2rem;
+  color: #FFFFFF;
+  font-family: GothamBook;
+}
+
+.contact-container {
+  width: 100%;
+  height: auto;
+  background-color: #c4a563;
+}
+
+.contact-container .row {
+  padding: 1rem;
+}
+
+.message_box {
+  position: relative;
+  text-align: center;
+  right:14rem;
+  top: .5rem;
+}
+
+.phone_box {
+  position: relative;
+  text-align: center;
+  right: 18rem;
+  top: .5rem;
+}
+
+.phone_box a {
+  color: #000000;
+  font-family: GothamBold;
+}
+
+.phone_box img {
+  width: 43px;
+}
+
+.chat_text {
+  position: relative;
+  left: 1rem;
+  color: #000000;
+  font-family: GothamBold;
+  cursor: pointer;
+}
+
+.phone_number {
+  position: relative;
+  left: 1rem;
+}
+
+.mail-address {
+  position: absolute;
+  left: 5rem;
+  top: 11px;
+}
+
+.mail-address a {
+  color: #000000;
+}
+
+.mailer_box {
+  position: relative;
+  right: 18rem;
+  top: .5rem;
+  font-family: GothamBold;
+}
+.chat_text > a {
+  color: #000000;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+  width: 100%;
+}
+
+/*Media Query*/
+
+@media screen and (max-width: 1300px) and (min-width: 1137px) {
+    .question_box h3 {
+      font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1155px) and (min-width: 1024px) {
+    .question_box h3 {
+    position: relative;
+    right: 10rem;
+    font-size: 16px;
+  }
+  .message_box {
+    position: relative;
+    text-align: center;
+    right: 16rem;
+    top: .5rem;
+  }
+  .chat_text {
+    position: relative;
+    left: 1rem;
+    color: #000000;
+    font-family: GothamBold;
+    font-size: 12px;
+  }
+  .phone_number {
+    font-size: 11px;
+  }
+  .mail-address a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1023px) and (min-width: 992px) {
+  .question_box h3 {
+  position: relative;
+  right: 6rem;
+  font-size: 16px;
+  }
+  .message_box {
+    position: relative;
+    text-align: center;
+    right: 16rem;
+    top: .5rem;
+  }
+  .chat_text {
+    position: relative;
+    left: 1rem;
+    color: #000000;
+    font-family: GothamBold;
+    font-size: 12px;
+  }
+  .phone_number {
+    font-size: 11px;
+  }
+  .mail-address a {
+    font-size: 12px;
+  }
+
+}
+@media(max-width:991px){
+  .phone_box, .message_box, .mailer_box{
+    right: 0;
+    margin-bottom: 1rem;
+  }
+  .question_box{
+    text-align: center;
+    left: 0;
+  }
+  .help-content{
+    margin: 0;
+    margin-top: 1rem;
+  }
+  .middleContact{
+    float: right;
+  }
+  .contactItem{
+    padding: 0;
+  }
+}
+@media(max-width:650px){
+  .contactItem{
+    font-size: 1.2rem;
+  }
+}
+@media(max-width:560px) and (min-width:515px){
+  .contactItem a {
+    font-size: 1rem;
+  }
+}
+@media(max-width:515px) and (min-width:470px){
+  .contact-container .row{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .contactItem img{
+    margin-left: -2rem;
+  }
+  .mail-address{
+    left: 3rem;
+  }
+  .contactItem a {
+    font-size: 1rem;
+  }
+  .question_box h3 {
+    font-size: 1.5rem;
+  }
+}
+@media(max-width:470px){
+  .contactItem a, .contactItem a > span {
+    font-size: 0.9rem;
+    display: block;
+    left: inherit;
+    position: relative;
+    top: inherit;
+  }
+  .mail-address{
+    position: relative;
+    top: inherit;
+    left: inherit;
+  }
+  .contactItem > div{
+    text-align: center;
+  }
+  .phone_number, .chat_text{
+    top: inherit;
+    left: inherit;
+  }
+  .question_box h3 {
+    font-size: 1.5rem;
+  }
+  .contact-container .row {
+    padding: 1rem 0;
+  }
+  .help-content {
+    margin-top: 0.5rem;
+  }
+}
+@media(min-width:1600px){
+  .help-content{
+    text-align: center;
+  }
+}

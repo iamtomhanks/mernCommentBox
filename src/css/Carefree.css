@@ -1,0 +1,66 @@
+
+.carefree_container {
+  padding-top: 2rem;
+}
+
+.careText_Box {
+  margin-top: 8%;
+}
+
+#elderly {
+  width: 100%;
+
+}
+
+#cfheading {
+  width: 86%;
+  font-size: 3rem;
+  color: #008dd3;
+  font-family: GothamLight;
+}
+
+#cfp {
+  width: 80%;
+  font-family: GothamBook;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 1350px) { 
+	.careText_Box {
+    margin-top: 13%;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	#cfheading {
+		font-size: 26pt;
+	}
+	#cfp {
+  font-size: 14px;
+}
+} 
+@media screen and (max-width: 1024px) {
+	#cfheading {
+		font-size: 26px;
+	}
+	#cfp {
+  		font-size: 14px;
+  		line-height: 1.5em;
+	}
+	.carefree_container {
+  		padding-top: 0;
+}
+}
+
+@media screen and (max-width: 1000px) {
+	.careText_Box {
+		margin-top: 0;
+	}
+
+	#cfp {
+		width: 100%
+	}
+	h1#cfheading {
+		margin-top: ;
+	}
+} 

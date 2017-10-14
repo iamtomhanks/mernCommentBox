@@ -1,0 +1,167 @@
+.adult-condo h1 {
+  font-family: GothamLight;
+  color: #008dd3;
+  width: 58%;
+}
+.condo-text {
+  position: relative;
+  width: 60%;
+  font-family: Gotham-Book;
+
+}
+
+.condo-text p {
+  width: 34rem;
+  top: .9rem;
+  font-family: GothamBook;
+    line-height: 1.5em;
+}
+
+.text_box {
+  margin: 0 15rem;
+  width: 48rem;
+}
+
+.mapRow{
+  margin: 3rem 0 !important;
+}
+.adult-condo > img{
+  max-width: 100%;
+}
+
+.map_box {
+  margin-top: -2rem;
+}
+
+#mapper {
+  width: 30rem;
+}
+.breezeLogo{
+  display: none;
+}
+.building-text{
+  font-family: GothamBook;
+  font-size: 1.5rem;
+}
+
+@media(max-width:1219px) {
+
+}
+
+@media(max-width:1200px) and (min-width:991px){
+.text_box {
+  margin: 0 9rem;
+  width: 48rem;
+  }
+}
+@media(max-width:991px){
+  .text_box{
+    top: 0;
+    left: 0;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+  .map_box{
+    text-align: center;
+    margin-left: 0 !important;
+  }
+  .adult-condo{
+    margin: auto;
+    width: 80%;
+  }
+  .adult-condo > img{
+    content:('../images/mapText.jpg');
+  }
+  .condo-text{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media(max-width:991px){
+  .breezeLogo{
+    display: block;
+    max-width: 70%;
+    margin: auto;
+    margin-top: 3rem;
+  }
+  #mapper{
+    height: auto;
+  }
+  .FormContainer{
+    text-align: center;
+  }
+  .FormDisclaimerContainer{
+    text-align: left;
+  }
+  .FormButtonText{
+    width: 75%;
+    padding: 1rem;
+  }
+  .text_box {
+    margin:0;
+  }
+  .condo-text p {
+    width: 100%;
+    margin: 0;
+    top: .9rem;
+    font-family: GothamBook;
+  }
+}
+
+@media(min-width:1350px){
+  .text_box {
+    margin: 0 25rem;
+  }
+}
+
+@media(max-width:991px) and (min-width:600px){
+  .breezeLogo{
+    max-width: 45%;
+  }
+}
+
+@media(max-width:768px){
+  .text_box{
+    width: 100%;
+    margin-left: 0 !important;
+  }
+  .condo-text p {
+    width: 100% !important;
+  }
+  .adultCondosHeader {
+    width: 100%;
+    font-size: 2.8em;
+  }
+  .map_box {
+    margin-left: 0 !important;
+  }
+  .adult-condo h1 {
+    width: 100%;
+  }
+  img#mapper {
+    width: 80% !important;
+    padding-top: 5%;
+  }
+
+  .condo-text p {
+    font-size: 1.5em;
+  }
+}
+
+@media(max-width:600px){
+  .FormInput{
+    width: 75%;
+    margin-left: 12.5%;
+  }
+}
+
+@media(max-width:414px){
+    .condo-text p {
+    font-size: 1em;
+  }
+  .adultCondosHeader {
+    font-size: 2em;
+  }
+}
+
+
